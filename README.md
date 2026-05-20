@@ -6,3 +6,7 @@ Learn about how to train model CNN
 
 # Kiến trúc của VGG16
 ![VGG16](VGG/VGG16.png)
+
+# Ràng Buộc Để Sử dụng được kiến trúc VGG16
+- Kích thước tối thiểu của ảnh (W, H) = 32
+![VGG16_Minimum](VGG/Minimum_Size.png)

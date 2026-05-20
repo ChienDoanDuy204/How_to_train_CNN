@@ -39,8 +39,10 @@ class BaseMLP(ABC):
     def compute_loss(self,logits, y):
         pass
     
-    def Add_layer(self,layer):
-        self.Layers.append(layer)
+    def Add_layer(self,layers):
+        if not isinstance(layers, list):
+            raise TypeError("layers must be a list")
+        self.Layers.extend(layers)
         # dấu * ở đây có nghĩa là mỗi phần tử của list là 1 tham số của hàm nn.Sequential
         self.model = nn.Sequential(*self.Layers)
     def forward(self,X):
