@@ -1,0 +1,9 @@
+**/*.ipynb
+**/.ipynb_checkpoints
+**/outputs/
+
+# Dataset
+data/
+
+# Folder
+notebooks/
