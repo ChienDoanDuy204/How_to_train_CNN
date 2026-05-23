@@ -1,5 +1,5 @@
 # How_to_train_CNN
-Learn about how to train model CNN
+Learn about how to improve accuracy in training - Tăng khả năng học của mô hình
 
 # Link access documentation
 - [Google Docs](https://docs.google.com/document/d/1GiPxeuVR6Lre86FYU8gSRfkV-D_LyCYtzXrfDJ8LJno/edit?usp=sharing)
